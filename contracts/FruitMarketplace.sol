@@ -112,8 +112,6 @@ contract FruitMarketplace {
     function getFruitCount() public view returns (uint) {
         return fruits.length;
     }
-<<<<<<< HEAD
-=======
 
     // Nouvelle fonction : Détails d’un fruit
     function getFruit(
@@ -139,5 +137,4 @@ contract FruitMarketplace {
             fruit.buyer
         );
     }
->>>>>>> bf37e74 (Premier commit sur ntm)
 }
